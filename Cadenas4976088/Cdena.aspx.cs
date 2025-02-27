@@ -33,8 +33,8 @@ namespace Cadenas4976088
             Response.Redirect
                 (
 
-                 "?ddiCategory=" + ddlCategory.Text +
-                 "&ddiSupplier=" + ddlSupplier.Text +
+                 "?ddlCategory=" + ddlCategory.Text +
+                 "&ddlSupplier=" + ddlSupplier.Text +
                  "&strProduct=" + txtProduct.Text +
                  "&strDescription=" + TextArea1.InnerText +
                  "&strImage=" + txtImage.Text +
